@@ -1,7 +1,5 @@
 
 * {
-    margin: 0;
-    padding: 0;
     list-style: none;
     color: black;
     text-decoration: none;
@@ -9,50 +7,46 @@
     outline: none;
     border: none;
     font-family: 'Inter', sans-serif;
-}
-
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-
-}
-
-.menu {
-    width: 100%;
+  }
+  
+  .menu {
+  
+    width: 1200px;
     background: #ffffff;
     box-shadow: 0px 4px 30px -10px rgba(0, 0, 0, 0.1);
-}
-
-.menu-flex {
+    margin: 0 auto;
+  }
+  
+  .menu-flex {
     display: flex;
     align-items: center;
-}
-
-.menu-column {
+    ;
+  }
+  
+  .menu-column {
     display: flex;
     align-items: center;
     width: 50%;
     justify-content: flex-start;
-}
-
-.menu-column.menu-second-column {
+  }
+  
+  .menu-column.menu-second-column {
     justify-content: flex-end;
-}
-
-.menu-nav ul {
+  }
+  
+  .menu-nav ul {
     display: flex;
     list-style: none;
     gap: 10px;
-}
-
-.menu-nav ul li a {
+  
+  }
+  
+  .menu-nav ul li a {
     text-decoration: none;
     color: #585e65;
-    justify-items: center;
-    
-}
-
-.menu-link-button {
+  }
+  
+  .menu-link-button {
     text-decoration: none;
     height: 48px;
     background-color: #4c6ef5;
@@ -61,57 +55,34 @@
     display: flex;
     align-items: center;
     border-radius: 4px;
-
-}
-
-
-.products-wrapper {
+  }
+  
+  .boxMain {
+    width: 1200px;
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    align-items: flex-end;
     justify-content: space-between;
-    flex-wrap: wrap;
-    margin-bottom: 16px;
-
-}
-
-
-.lista-produtos {
-    display:flex;
-    background-color: white;
-    margin-bottom: 5px;
+  }
+  
+  .boxIten {
     width: 24%;
-    justify-items: center;
-    max-width: 150px;
-
-}
-.card {
-    width: 374px;
-    height: 500px;
-    top: 114px;
-    background-color: white;
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.img {
-    display: flex;
-    width: 282px;
-    height: 207px;
-    top: 157px;
-}
-
-.text {
-    width: 347px;
+    margin-bottom: 16px;
     font-size: 16px;
     line-height: 28px;
-}
-.button{
-    text-decoration: none;
-    width: 200px;
-    background-color: #4c6ef5;
-    color: #fff;
-    display: flex;
-    align-items: center;
+    overflow: hidden;;
+  }
+  
+  .button{
+    width: 335px;
+    height:48px;
     
-
-}
+  
+  }
+  img{
+    width:230px;
+    height:200px;
+  
+  }
